@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.envs
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/*.tsv
+data/*.pkl
+data/images/
+
+# Training outputs
+lightning_logs/
+
+# Saved model weights
+saved_model/
+
+# Temporary files
+*.log
+*.tmp

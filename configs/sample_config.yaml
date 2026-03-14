@@ -1,0 +1,23 @@
+modality: "text-image"
+
+num_classes: 2
+
+batch_size: 2
+learning_rate: 1.0e-4
+num_epochs: 3
+dropout_p: 0.1
+
+text_embedder: "all-mpnet-base-v2"
+
+dialogue_summarization_model: null
+
+train_data_path: "./data/train_subset.tsv"
+test_data_path: "./data/test_subset.tsv"
+
+preprocessed_train_dataframe_path: "./data/train__text_image__dataframe.pkl"
+preprocessed_test_dataframe_path: "./data/test__text_image__dataframe.pkl"
+
+gpus: [0]
+
+trained_model_version: 1
+trained_model_path: null
